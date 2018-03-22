@@ -1,0 +1,9 @@
+hugopoc:
+  build: "./"
+  ports:
+      - "80:80"
+      - "1313:1313"
+  volumes:
+      - ./:/go
+  environment:
+      - VIRTUAL_HOST=hugopoc.local
