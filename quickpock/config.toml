@@ -1,0 +1,4 @@
+baseURL = "http://hugopoc.local/"
+languageCode = "pt-br"
+title = "My New Hugo Poc Site"
+theme = "ananke"
